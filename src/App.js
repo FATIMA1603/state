@@ -31,6 +31,7 @@ class App extends Component {
   componentWillUnmount() {
     clearInterval(this.intervalId);
   }
+  //timer
 
   startTimer() {
     this.intervalId = setInterval(() => {
